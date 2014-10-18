@@ -1,0 +1,11 @@
+# Site settings
+title: conner mcdaniel
+email: <a href=http://www.google.com/recaptcha/mailhide/d?k=01zVKKWwg8CTY4dkRtTYYtAw==&c=mVccyyNAqlWSdbz0SHrC7SXABFzgpCysCKLJ75jdD30=>email me</a>
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://connermcd.com" # the base hostname & protocol for your site
+twitter_username: connermcd
+github_username:  connermcd
+
+# Build settings
+markdown: redcarpet

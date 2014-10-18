@@ -1,0 +1,10 @@
+---
+date: '2013-10-21 21:26:24'
+layout: post
+slug: sed-implementation-in-haskell-episode-1
+title: Sed implementation in Haskell - Episode 1
+categories:
+- tech
+---
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/0I90MTip-OQ" frameborder="0" allowfullscreen></iframe>
