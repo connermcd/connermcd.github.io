@@ -11,4 +11,4 @@ tags:
 - arch
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/ktta8hbJ-UY" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/ktta8hbJ-UY"></iframe>

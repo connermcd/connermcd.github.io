@@ -25,7 +25,7 @@ Because there is such a learning curve, the "why?" question is valid. Why should
 
 Let me give an example of what I mean by speed (better in full screen).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/TEQq_Q_tibw" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/TEQq_Q_tibw"></iframe>
 
 ### How?
 

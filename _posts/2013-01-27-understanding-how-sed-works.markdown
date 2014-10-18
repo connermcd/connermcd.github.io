@@ -14,4 +14,4 @@ tags:
 
 I'm making a new video series with some tips on sed. Here's the first one:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/l0mKlIswojA" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/l0mKlIswojA"></iframe>

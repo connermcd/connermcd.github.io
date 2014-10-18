@@ -7,4 +7,4 @@ categories:
 - tech
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/NsTF7RUzd4c" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/NsTF7RUzd4c"></iframe>

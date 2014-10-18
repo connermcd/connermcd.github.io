@@ -14,4 +14,4 @@ tags:
 
 Here's the final sed video. Hope you enjoy it!
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/W95wrzAgdWk" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/W95wrzAgdWk"></iframe>

@@ -14,4 +14,4 @@ tags:
 
 Here's a belated part two on the sed series:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/4vr8Aao0Mfo" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/4vr8Aao0Mfo"></iframe>

@@ -14,4 +14,4 @@ tags:
 
 New video with some command line fun:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/NYGI5xh4Llc" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/NYGI5xh4Llc"></iframe>

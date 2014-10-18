@@ -45,4 +45,4 @@ snippet t
 
 The video also references my post about [WriteRoom mode in vim](http://connermcd.com/blog/2011/10/12/using-vim-in-place-of-writeroom/).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/HJ93UYeaoww" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="http://www.youtube.com/embed/HJ93UYeaoww"></iframe>
