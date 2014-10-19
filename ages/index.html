@@ -1,0 +1,88 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Family birthdays</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--
+    Nana,5-18-?
+    Popo,8-14-?
+    -->
+    <script type="text/javascript">
+    var bdays = [
+        { name: "Sarah Jo", month: 7, day: 24, year: 2012 }
+    ,   { name: "Carter", month: 2, day: 18, year: 2011 }
+    ,   { name: "Abigail", month: 12, day: 30, year: 2008 }
+    ,   { name: "Ellery", month: 10, day: 22, year: 2006 }
+    ,   { name: "Conner", month: 4, day: 28, year: 1987 }
+    ,   { name: "Travis", month: 6, day: 27, year: 1985 }
+    ,   { name: "Bonnie", month: 9, day: 29, year: 1981 }
+    ,   { name: "Caleb", month: 8, day: 2, year: 1979 }
+    ,   { name: "Dusty", month: 8, day: 4, year: 1979 }
+    ,   { name: "Brandy", month: 12, day: 4, year: 1978 }
+    ,   { name: "Mom", month: 5, day: 8, year: 1954 }
+    ,   { name: "Dad", month: 12, day: 5, year: 1952 }
+    ,   { name: "Grandma", month: 3, day: 3, year: 1926 }
+    ];
+
+    getAge = function(now, bday) {
+        var age = now.getFullYear() - bday.getFullYear();
+        if (now.getMonth() < bday.getMonth() ||
+            (now.getMonth() == bday.getMonth() && now.getDate() < bday.getDate())) {
+            age--;
+        }
+        return age;
+    };
+
+    getDaysUntilBirthday = function(now, bday) {
+        if (now.getMonth() < bday.getMonth() ||
+            (now.getMonth() == bday.getMonth() && now.getDate() < bday.getDate())) {
+            bday.setFullYear(now.getFullYear());
+        }
+        else {
+            bday.setFullYear(now.getFullYear() + 1);
+        }
+        var ms = bday - now;
+        return Math.floor(ms / (1000 * 60 * 60 * 24));
+    };
+
+    format = function(now, o, age, daysUntilBirthday) {
+        var $div = $("<div></div>");
+        $div.append("<b>" + o.name + "</b><br />");
+        $div.append("<label>Birthday:</label> <span>" +
+                o.month + "/" + o.day + "/" + o.year + "</span><br />");
+        $div.append("<label>Age:</label> <span>" + age + "</span>");
+        if (now.getMonth() + 1 == o.month)
+            $div.css({ "background-color": "lightgrey" });
+
+        var $bar = $("<div></div>");
+        $bar.css({
+            "height": "5px"
+        ,   "position": "relative"
+        ,   "width": (Math.floor(100 * daysUntilBirthday / 365)) + "%"
+        });
+        if (now.getMonth() + 2 == o.month)
+            $bar.css({ "background-color": "red" });
+        else if (now.getMonth() + 3 == o.month)
+            $bar.css({ "background-color": "orange" });
+        else if (o.month - now.getMonth() >= 5)
+            $bar.css({ "background-color": "yellow" });
+        else
+            $bar.css({ "background-color": "green" });
+
+        $div.append($bar);
+        $("body").append($div);
+    };
+
+    main = function() {
+        var now = new Date();
+        for (i = 0; i < bdays.length; i++) {
+            var o = bdays[i];
+            var bday = new Date(o.year, o.month - 1, o.day);
+            format(now, o, getAge(now, bday), getDaysUntilBirthday(now, bday));
+        }
+    };
+    $(main);
+    </script>
+</head>
+<body></body>
+</html>
