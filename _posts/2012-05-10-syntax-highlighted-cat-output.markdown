@@ -6,7 +6,6 @@ status: publish
 title: Syntax highlighted cat output
 wordpress_id: '1424'
 categories:
-- tech
 tags:
 - bash
 - python

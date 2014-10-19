@@ -6,7 +6,6 @@ status: publish
 title: Blogging with Wordpress, vim and markdown
 wordpress_id: '679'
 categories:
-- tech
 tags:
 - markdown
 - vim

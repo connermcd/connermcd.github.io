@@ -6,7 +6,6 @@ status: publish
 title: Syncing bashrc and vimrc with Dropbox
 wordpress_id: '1148'
 categories:
-- tech
 tags:
 - bash
 - dropbox

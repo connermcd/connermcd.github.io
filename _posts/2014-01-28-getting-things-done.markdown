@@ -4,7 +4,6 @@ layout: post
 slug: getting-things-done
 title: Getting things done
 categories:
-- tech
 tags:
 - bash
 - productivity

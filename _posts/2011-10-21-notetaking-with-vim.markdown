@@ -6,7 +6,6 @@ status: publish
 title: Notetaking with vim
 wordpress_id: '1033'
 categories:
-- tech
 tags:
 - mac
 - markdown

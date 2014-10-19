@@ -4,7 +4,6 @@ layout: post
 slug: ranges-in-vim,-sed,-and-ed
 title: Ranges in vim, sed, and ed
 categories:
-- tech
 tags:
 - vim
 - sed

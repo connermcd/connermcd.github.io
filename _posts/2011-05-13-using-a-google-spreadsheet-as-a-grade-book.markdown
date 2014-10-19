@@ -6,7 +6,6 @@ status: publish
 title: Using a Google Spreadsheet as a gradebook
 wordpress_id: '778'
 categories:
-- tech
 tags:
 - google
 - javascript

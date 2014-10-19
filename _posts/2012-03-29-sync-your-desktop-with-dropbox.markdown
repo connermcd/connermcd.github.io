@@ -6,7 +6,6 @@ status: publish
 title: Sync your desktop with Dropbox
 wordpress_id: '1351'
 categories:
-- tech
 tags:
 - dropbox
 - unix

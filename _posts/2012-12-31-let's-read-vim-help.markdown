@@ -4,7 +4,6 @@ layout: post
 slug: let's-read-vim-help
 title: Let's read vim :help
 categories:
-- tech
 tags:
 - vim
 - unix

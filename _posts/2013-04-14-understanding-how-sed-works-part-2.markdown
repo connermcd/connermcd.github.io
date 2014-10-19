@@ -4,7 +4,6 @@ layout: post
 slug: understanding-how-sed-works-part-2
 title: Understanding how sed works&#58; Part 2
 categories:
-- tech
 tags:
 - bash
 - sed

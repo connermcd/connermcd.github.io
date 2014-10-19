@@ -6,7 +6,6 @@ status: publish
 title: Drag items from Snow Leopard list stacks
 wordpress_id: '1287'
 categories:
-- tech
 tags:
 - bash
 - mac

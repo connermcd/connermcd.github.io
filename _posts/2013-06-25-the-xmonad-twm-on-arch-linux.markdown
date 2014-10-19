@@ -4,7 +4,6 @@ layout: post
 slug: the-xmonad-twm-on-arch-linux
 title: The xmonad TWM on Arch Linux
 categories:
-- tech
 tags:
 - arch
 - haskell

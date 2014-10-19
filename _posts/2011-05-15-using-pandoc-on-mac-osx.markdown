@@ -6,7 +6,6 @@ status: publish
 title: Using pandoc on Mac OSX
 wordpress_id: '793'
 categories:
-- tech
 tags:
 - mac
 - markdown

@@ -4,7 +4,6 @@ layout: post
 slug: syncing-music-to-android-from-arch
 title: Syncing music to Android from Arch
 categories:
-- tech
 tags:
 - arch
 - android

@@ -5,7 +5,6 @@ slug: new-website
 title: New website
 categories:
 - medicine
-- tech
 - soapbox
 ---
 

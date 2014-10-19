@@ -4,7 +4,6 @@ layout: post
 slug: the-virtues-of-vimpc
 title: The virtues of vimpc
 categories:
-- tech
 tags:
 - mpd
 - unix

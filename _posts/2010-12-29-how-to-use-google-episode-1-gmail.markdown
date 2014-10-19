@@ -6,7 +6,6 @@ status: publish
 title: 'How to use Google (Episode 1): Gmail'
 wordpress_id: '527'
 categories:
-- tech
 tags:
 - google
 ---

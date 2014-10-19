@@ -4,7 +4,6 @@ layout: post
 slug: bash-parameter-expansion
 title: Bash parameter expansion
 categories:
-- tech
 ---
 
 <iframe class="youtube" src="http://www.youtube.com/embed/82ESpisUh3Q"></iframe>

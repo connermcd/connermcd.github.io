@@ -6,7 +6,6 @@ status: publish
 title: Essential, basic vim commands
 wordpress_id: '1052'
 categories:
-- tech
 tags:
 - bash
 - mac

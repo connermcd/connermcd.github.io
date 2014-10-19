@@ -6,7 +6,6 @@ status: publish
 title: Tasky.txt, a Google Tasks CLI
 wordpress_id: '1277'
 categories:
-- tech
 tags:
 - bash
 - google

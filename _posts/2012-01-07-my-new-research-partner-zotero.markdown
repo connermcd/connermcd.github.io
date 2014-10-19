@@ -6,7 +6,6 @@ status: publish
 title: My new research partner, Zotero
 wordpress_id: '1282'
 categories:
-- tech
 tags:
 - openoffice
 - productivity

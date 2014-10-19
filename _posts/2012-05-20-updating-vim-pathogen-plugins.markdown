@@ -6,7 +6,6 @@ status: publish
 title: Updating vim pathogen plugins
 wordpress_id: '1440'
 categories:
-- tech
 tags:
 - bash
 - productivity

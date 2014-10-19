@@ -6,7 +6,6 @@ status: publish
 title: Vim. What? Why? How?
 wordpress_id: '603'
 categories:
-- tech
 tags:
 - vim
 ---

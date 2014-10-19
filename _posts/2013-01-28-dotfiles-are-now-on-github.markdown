@@ -4,7 +4,6 @@ layout: post
 slug: dotfiles-are-now-on-github
 title: Dotfiles are now on github
 categories:
-- tech
 tags:
 - vim
 - bash

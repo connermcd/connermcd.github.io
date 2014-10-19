@@ -4,7 +4,6 @@ layout: post
 slug: a-color-suscheme
 title: A color suscheme
 categories:
-- tech
 tags:
 - vim
 ---

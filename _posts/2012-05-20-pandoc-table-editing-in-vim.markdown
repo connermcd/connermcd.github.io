@@ -6,7 +6,6 @@ status: publish
 title: Pandoc table editing in vim
 wordpress_id: '1434'
 categories:
-- tech
 tags:
 - bash
 - markdown

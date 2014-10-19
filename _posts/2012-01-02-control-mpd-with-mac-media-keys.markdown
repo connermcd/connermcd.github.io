@@ -6,7 +6,6 @@ status: publish
 title: Control mpd with mac media keys
 wordpress_id: '1267'
 categories:
-- tech
 tags:
 - bash
 - mac

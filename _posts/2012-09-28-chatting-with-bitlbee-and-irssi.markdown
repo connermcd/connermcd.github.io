@@ -4,7 +4,6 @@ layout: post
 slug: chatting-with-bitlbee-and-irssi
 title: Chatting with bitlbee and irssi
 categories:
-- tech
 tags:
 - irssi
 - google
