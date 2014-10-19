@@ -4,6 +4,7 @@ layout: post
 slug: a-vim-setup-for-octopress
 title: A vim setup for octopress
 categories:
+- blog
 tags:
 - wordpress
 - vim

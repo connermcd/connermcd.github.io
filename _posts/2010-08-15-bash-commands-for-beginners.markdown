@@ -6,6 +6,7 @@ status: publish
 title: Bash commands for beginners
 wordpress_id: '323'
 categories:
+- blog
 tags:
 - bash
 - unix

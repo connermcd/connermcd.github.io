@@ -4,6 +4,7 @@ layout: post
 slug: let's-read-vim-help
 title: Let's read vim :help
 categories:
+- blog
 tags:
 - vim
 - unix

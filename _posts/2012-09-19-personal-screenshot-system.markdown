@@ -4,6 +4,7 @@ layout: post
 slug: personal-screenshot-system
 title: Personal screenshot system
 categories:
+- blog
 tags:
 - mac
 - bash

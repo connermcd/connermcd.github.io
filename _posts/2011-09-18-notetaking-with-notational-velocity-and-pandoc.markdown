@@ -6,6 +6,7 @@ status: publish
 title: Notetaking with Notational Velocity and pandoc
 wordpress_id: '879'
 categories:
+- blog
 tags:
 - dropbox
 - mac

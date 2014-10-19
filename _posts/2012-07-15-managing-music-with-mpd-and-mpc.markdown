@@ -4,6 +4,7 @@ layout: post
 slug: managing-music-with-mpd-and-mpc
 title: Managing music with mpd
 categories:
+- blog
 tags:
 - mac
 - mpd

@@ -4,6 +4,7 @@ layout: post
 slug: understanding-how-sed-works
 title: Understanding how sed works
 categories:
+- blog
 tags:
 - sed
 - unix

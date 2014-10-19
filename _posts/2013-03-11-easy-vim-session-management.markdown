@@ -4,6 +4,7 @@ layout: post
 slug: easy-vim-session-management
 title: Easy vim session management
 categories:
+- blog
 tags:
 - vim
 - productivity

@@ -4,6 +4,7 @@ layout: post
 slug: using-mutt-with-offlineimap-and-vim
 title: Using mutt with offlineimap and vim
 categories:
+- blog
 tags:
 - mutt
 - vim

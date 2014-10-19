@@ -6,6 +6,7 @@ status: publish
 title: 10 reasons I use Ubuntu
 wordpress_id: '157'
 categories:
+- blog
 tags:
 - ubuntu
 - mac

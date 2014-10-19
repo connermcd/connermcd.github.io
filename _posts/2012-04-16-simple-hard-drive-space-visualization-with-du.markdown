@@ -6,6 +6,7 @@ status: publish
 title: Simple hard drive space visualization with du
 wordpress_id: '1372'
 categories:
+- blog
 tags:
 - mac
 - productivity

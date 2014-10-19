@@ -6,6 +6,7 @@ status: publish
 title: Using vim in place of WriteRoom
 wordpress_id: '947'
 categories:
+- blog
 tags:
 - vim
 ---

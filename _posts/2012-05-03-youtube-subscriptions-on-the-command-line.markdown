@@ -6,6 +6,7 @@ status: publish
 title: YouTube subscriptions on the command line
 wordpress_id: '1402'
 categories:
+- blog
 tags:
 - awk
 - bash

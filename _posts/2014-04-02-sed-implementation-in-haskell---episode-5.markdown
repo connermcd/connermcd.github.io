@@ -4,6 +4,7 @@ layout: post
 slug: sed-implementation-in-haskell-episode-5
 title: Sed implementation in Haskell - Episode 5
 categories:
+- blog
 ---
 
 <iframe class="youtube" src="http://www.youtube.com/embed/NsTF7RUzd4c"></iframe>

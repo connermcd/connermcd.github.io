@@ -4,6 +4,7 @@ layout: post
 slug: how-to-easily-manage-aur-packages
 title: How to easily manage AUR packages
 categories:
+- blog
 ---
 
 <iframe class="youtube" src="http://www.youtube.com/embed/JKPBfyJUeMg"></iframe>

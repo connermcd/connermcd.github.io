@@ -6,6 +6,7 @@ status: publish
 title: Experimenting with custom Android ROMs
 wordpress_id: '1367'
 categories:
+- blog
 tags:
 - android
 - windows

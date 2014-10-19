@@ -4,6 +4,7 @@ layout: post
 slug: triple-booting-mac-windows-and-arch-linux
 title: Triple booting mac, windows, and arch linux
 categories:
+- blog
 tags:
 - windows
 - mac

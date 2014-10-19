@@ -4,6 +4,7 @@ layout: post
 slug: a-color-suscheme
 title: A color suscheme
 categories:
+- blog
 tags:
 - vim
 ---

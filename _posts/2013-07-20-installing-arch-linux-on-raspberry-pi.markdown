@@ -4,6 +4,7 @@ layout: post
 slug: installing-arch-linux-on-raspberry-pi
 title: Installing Arch Linux on Raspberry Pi
 categories:
+- blog
 tags:
 - unix
 - pi

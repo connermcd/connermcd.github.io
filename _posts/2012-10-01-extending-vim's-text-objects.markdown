@@ -4,6 +4,7 @@ layout: post
 slug: extending-vim's-text-objects
 title: Extending vim's text objects
 categories:
+- blog
 tags:
 - vim
 - productivity

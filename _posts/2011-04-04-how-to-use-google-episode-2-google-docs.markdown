@@ -6,6 +6,7 @@ status: publish
 title: 'How to use Google (Episode 2): Google Docs'
 wordpress_id: '539'
 categories:
+- blog
 tags:
 - google
 - openoffice

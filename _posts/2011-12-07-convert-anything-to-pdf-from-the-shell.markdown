@@ -6,6 +6,7 @@ status: publish
 title: Convert anything to PDF from the shell
 wordpress_id: '1191'
 categories:
+- blog
 tags:
 - bash
 - mac

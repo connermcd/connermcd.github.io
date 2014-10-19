@@ -4,6 +4,7 @@ layout: post
 slug: how-to-install-swype-on-samsung-galaxy-s3
 title: How to install Swype on Samsung Galaxy S3
 categories:
+- blog
 tags:
 - android
 - google

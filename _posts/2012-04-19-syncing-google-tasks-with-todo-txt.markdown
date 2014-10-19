@@ -6,6 +6,7 @@ status: publish
 title: Syncing Google tasks with Todo.txt
 wordpress_id: '1380'
 categories:
+- blog
 tags:
 - bash
 - google

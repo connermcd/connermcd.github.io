@@ -4,6 +4,7 @@ layout: post
 slug: editing-recent-files-with-the-find-command
 title: Editing recent files with the find command
 categories:
+- blog
 ---
 
 <iframe class="youtube" src="http://www.youtube.com/embed/cdegnqw-Bp8"></iframe>

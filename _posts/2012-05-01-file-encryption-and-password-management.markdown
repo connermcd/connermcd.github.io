@@ -6,6 +6,7 @@ status: publish
 title: File encryption and password management
 wordpress_id: '1392'
 categories:
+- blog
 tags:
 - android
 - bash

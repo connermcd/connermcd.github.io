@@ -4,6 +4,7 @@ layout: post
 slug: personal-pastebin-system
 title: Personal pastebin system
 categories:
+- blog
 tags:
 - productivity
 - unix

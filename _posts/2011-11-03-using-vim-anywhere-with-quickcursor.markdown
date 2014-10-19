@@ -6,6 +6,7 @@ status: publish
 title: Using vim anywhere with QuickCursor
 wordpress_id: '1119'
 categories:
+- blog
 tags:
 - vim
 - mac

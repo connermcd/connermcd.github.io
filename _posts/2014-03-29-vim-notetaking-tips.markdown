@@ -4,6 +4,7 @@ layout: post
 slug: vim-notetaking-tips
 title: Vim notetaking tips
 categories:
+- blog
 tags:
 - bash
 - unix

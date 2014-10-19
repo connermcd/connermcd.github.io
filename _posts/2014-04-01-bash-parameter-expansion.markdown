@@ -4,6 +4,7 @@ layout: post
 slug: bash-parameter-expansion
 title: Bash parameter expansion
 categories:
+- blog
 ---
 
 <iframe class="youtube" src="http://www.youtube.com/embed/82ESpisUh3Q"></iframe>

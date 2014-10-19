@@ -4,6 +4,7 @@ layout: post
 slug: wikidates-and-fun-on-the-command-line
 title: Wikidates and fun on the command line
 categories:
+- blog
 tags:
 - vim
 - unix
