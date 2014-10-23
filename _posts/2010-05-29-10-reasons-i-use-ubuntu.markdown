@@ -36,7 +36,7 @@ Ubuntu has resources to read and/or edit pretty much any file system format, dat
 ### Reason #6: It's beautiful
 Are you thinking that Windows 7 and Mac OSX have more stunning visual effects? Not a chance. Check out what Ubuntu can do:
 
-<iframe class="youtube" src="http://www.youtube.com/embed/mra6nqz8YMQ"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/mra6nqz8YMQ"></iframe></div>
 
 ### Reason #7: It's customizable
 If you watched the video you should already have a glimpse into just how customizable Ubuntu is. You can change anything and everything about how the operating system looks and performs. You can even make it [look exactly like Windows](http://www.youtube.com/watch?v=OdtMKdOv7nY&feature=fvw) or [exactly like Mac](http://www.youtube.com/watch?v=V5lOg5XIhqc&feature=fvw) if it suits your fancy. Oh, and if something doesn't exist that you want you can request it on online forums and have someone make it for you or if you're really adventurous you can code it yourself!

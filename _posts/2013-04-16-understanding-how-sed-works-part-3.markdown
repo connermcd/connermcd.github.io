@@ -14,4 +14,4 @@ tags:
 
 I went ahead and recorded part 3 after part 2. Enjoy!
 
-<iframe class="youtube" src="http://www.youtube.com/embed/P4ZcBrJ38I8"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/P4ZcBrJ38I8"></iframe></div>

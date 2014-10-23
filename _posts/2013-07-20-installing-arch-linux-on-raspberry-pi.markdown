@@ -11,4 +11,4 @@ tags:
 - arch
 ---
 
-<iframe class="youtube" src="http://www.youtube.com/embed/ktta8hbJ-UY"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/ktta8hbJ-UY"></iframe></div>

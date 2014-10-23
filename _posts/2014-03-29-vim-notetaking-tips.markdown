@@ -12,4 +12,4 @@ tags:
 - pandoc
 ---
 
-<iframe class="youtube" src="http://www.youtube.com/embed/wh_WGWii7UE"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/wh_WGWii7UE"></iframe></div>
