@@ -14,4 +14,4 @@ tags:
 
 Here's a video tutorial I made on ranges in vim and sed. Hope it's helpful!
 
-<iframe class="youtube" src="http://www.youtube.com/embed/1k7_7e5ugrY"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/1k7_7e5ugrY"></iframe></div>

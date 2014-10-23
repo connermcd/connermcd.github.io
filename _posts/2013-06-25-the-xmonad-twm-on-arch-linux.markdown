@@ -10,4 +10,4 @@ tags:
 - haskell
 ---
 
-<iframe class="youtube" src="http://www.youtube.com/embed/zrR0RY7vhB8"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/zrR0RY7vhB8"></iframe></div>

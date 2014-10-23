@@ -7,4 +7,4 @@ categories:
 - blog
 ---
 
-<iframe class="youtube" src="http://www.youtube.com/embed/io6D9u_UKVQ"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/io6D9u_UKVQ"></iframe></div>

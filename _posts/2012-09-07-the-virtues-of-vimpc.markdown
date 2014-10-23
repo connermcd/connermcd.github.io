@@ -15,7 +15,7 @@ Not too long ago I made a post about [managing music with mpd](/blog/2012/07/15/
 
 Many of its virtues as opposed to iTunes, Songbird, Banshee, or another music player are due to its inseparable relationship with mpd. Using mpd in and of itself will probably be a huge boost in inner peace and effectiveness, but vimpc is the perfect tool to accompany mpd's simplicity, especially if you're a [vim][] user. For example, you can easily use [mpc][] and the command line to execute simple tasks or script it with other programs if you don't need a graphical editor. When you do need a graphical editor you can very quickly load vimpc so that you can see and edit your playlist or save it and load a different one. You can also use it to browse your library or move songs around in the playlist. One of the virtues of mpd is that you can close vimpc when you're done with it and the music will keep on playing. You don't have to have the client open to be playing the music like in iTunes, Songbird, or Banshee. Maybe it's easiest to just show you a video:
 
-<iframe class="youtube" src="http://www.youtube.com/embed/RRFAqqPKiPs"></iframe>
+<div class="youtube"><iframe src="http://www.youtube.com/embed/RRFAqqPKiPs"></iframe></div>
 
 It may be difficult to see what keys I'm pressing in the video, but in general vimpc behaves like vim. You can take a look at the `:help` documentation for an explanation of all of its features. I use a `~/.vimpcrc` file with the following lines:
 
