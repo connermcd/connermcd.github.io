@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Who's in town?</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+    var people = [
+      { name: "Conner McDaniel", dates: [3, 6, 7, 9, 10, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] }
+    , { name: "Amy Bridges", dates: [1, 2, 7, 8, 13, 14] }
+    , { name: "Rachel Baker", dates: [2, 3, 4, 5, 6, 18, 19] }
+    , { name: "Alison Wiseman", dates: [2, 9, 10, 13, 14, 15, 16, 19, 20, 21, 22, 29, 30, 31] }
+    , { name: "Jennifer Shepard ", dates: [] }
+    , { name: "Whitney Haseman", dates: [] }
+    , { name: "Alicia Bach", dates: [11, 12, 13, 14, 15, 16, 17, 18, 19] }
+    , { name: "Sean Hutzler", dates: [3, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 24, 25, 26, 28, 29, 30, 31] }
+    , { name: "Katie Hinskey", dates: [1, 2, 9, 14, 15] }
+    , { name: "Emily Watters", dates: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 22, 23, 24, 25, 26, 27, 28] }
+    , { name: "Duncan Ramsey", dates: [1, 2, 3, 7, 8, 14, 15, 16, 17, 18, 19, 20, 28, 29, 30, 31] }
+    , { name: "Katie Ramsey", dates: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 17, 18, 20, 28, 29, 30, 31] }
+    , { name: "Katherine Beale", dates: [1, 2, 7, 8, 11, 12, 13, 14, 15, 16, 17, 24, 25, 26, 27, 28, 29, 30, 31] }
+    , { name: "Emily McCullar", dates: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] }
+    ];
+
+    format = function(dateText, obj) {
+      $("#people").empty();
+      var peopleInTown = $.grep(people, function(n, i) {
+        return $.inArray(parseInt(obj.currentDay), n.dates) >= 0;
+      });
+      if (peopleInTown.length == 0) {
+        $("#people").append("<br><b>No one is in town</b><br>")
+      } else if (peopleInTown.length == 1) {
+        $("#people").append("<br><b>" + peopleInTown.length + " person is in town</b><br>")
+      } else {
+        $("#people").append("<br><b>" + peopleInTown.length + " people are in town</b><br>")
+      }
+
+      $.each(peopleInTown, function() {
+        $("#people").append(this.name + "<br>");
+      });
+    };
+
+    main = function() {
+      $("#datepicker").datepicker({
+        minDate: new Date(2014, 11, 1),
+        maxDate: new Date(2014, 11, 31),
+        onSelect: format
+      })
+    }
+
+    $(main);
+    </script>
+</head>
+<body>
+  <div><b>Date: </b><input type="text" id="datepicker"></div>
+  <div id="people"></div>
+</body>
+</html>
