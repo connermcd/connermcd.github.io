@@ -63,7 +63,7 @@
         $bar.css({
             "height": "5px"
         ,   "position": "relative"
-        ,   "width": (Math.floor(100 * daysUntilBirthday / 365)) + "%"
+        ,   "width": (100 - Math.floor(100 * daysUntilBirthday / 365)) + "%"
         });
         if (now.getMonth() + 2 == o.month)
             $bar.css({ "background-color": "red" });
