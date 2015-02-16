@@ -18,16 +18,13 @@ tags:
 Eventually I realized that Notational Velocity was just an extra keyboard shortcut and window on my desktop, so I ditched it for some better alternatives in vim. I'm especially fond of using [ack](http://betterthangrep.com/) and the [ack plugin for vim](https://github.com/mileszs/ack.vim). I'm using these mappings for my .vimrc
 
 ```
-map n :e! /notes
-map ] :Note
-map [ :NoteTab
-map 0 :Nls
-imap ] :Note
-imap [ :NoteTab
-imap 0 :Nls
-command -nargs=1 Note :exe "e! " . fnameescape("/notes/.txt")
-command -nargs=1 NoteTab :exe "tabnew " . fnameescape("/notes/.txt")
-command -nargs=1 Nls :Ack --text "" /notes
+map <leader>n :e! /notes
+map <leader>] :Note
+map <leader>[ :NoteTab
+map <leader>0 :Nls
+command -nargs=1 Note :exe "e! " . fnameescape("/notes/<args>.txt")
+command -nargs=1 NoteTab :exe "tabnew " . fnameescape("/notes/<args>.txt")
+command -nargs=1 Nls :Ack --text "<args>" /notes
 ```
 
 I've also made some snippets to help with notetaking in markdown.
