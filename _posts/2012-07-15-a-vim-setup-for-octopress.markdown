@@ -77,5 +77,5 @@ You'll have to change the appropriate directories of course. This allows you to 
    [octopress]: http://octopress.org/
    [wordpress]: http://wordpress.org/download/
    [vimrepress]: https://github.com/connermcd/VimRepress
-   [wpdev]: http://connermcd.com/blog/2011/05/04/blogging-with-wordpress-vim-and-markdown/
+   [wpdev]: http://connermcd.com/blog/2011/05/04/blogging-with-wordpress-vim-and-markdown.html
    [snipmate]: https://github.com/msanders/snipmate.vim
