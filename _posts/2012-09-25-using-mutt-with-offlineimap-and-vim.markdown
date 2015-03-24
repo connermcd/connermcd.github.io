@@ -120,8 +120,8 @@ I'm still getting the hang of mutt and have more to learn. I'm sure I'll have up
    [caleb]: http://wcm1.web.rice.edu/
    [vim]: http://www.vim.org/
    [mutt]: http://www.mutt.org/
-   [QuickCursor]: http://connermcd.com/blog/2011/11/03/using-vim-anywhere-with-quickcursor/
-   [music]: http://connermcd.com/blog/2012/09/07/the-virtues-of-vimpc/
+   [QuickCursor]: http://connermcd.com/blog/2011/11/03/using-vim-anywhere-with-quickcursor.html
+   [music]: http://connermcd.com/blog/2012/09/07/the-virtues-of-vimpc.html
    [offlineimap]: http://offlineimap.org/
    [Maildir]: http://en.wikipedia.org/wiki/Maildir
    [mailrun]: http://connermcd.com/paste/083800092512.html
@@ -129,4 +129,4 @@ I'm still getting the hang of mutt and have more to learn. I'm sure I'll have up
    [notmuch]: http://notmuchmail.org/
    [notspeed]: http://notmuchmail.org/performance/
    [script]: https://gist.github.com/2942855
-   [any2pdf]: http://connermcd.com/blog/2011/11/03/using-vim-anywhere-with-quickcursor/
+   [any2pdf]: http://connermcd.com/blog/2011/11/03/using-vim-anywhere-with-quickcursor.html

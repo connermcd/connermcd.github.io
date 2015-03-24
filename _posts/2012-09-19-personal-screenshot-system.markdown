@@ -25,7 +25,7 @@ echo "http://connermcd.com/screenshots/$curTime.png" | pbcopy
 
 Once I run it it automatically syncs to my website and copies the link to my clipboard. The result looks like [this][example]. I then saved the workflow as an application and I trigger it with a keyboard shortcut using [BetterTouchTool][BTT]. I also changed my [lighttpd][lighttpd] settings so that my `/paste` and `/screenshots` folders are password protected. That way I can look at my pastes and screenshots en masse without opening them to the whole world.
 
-   [pastebin]: http://connermcd.com/blog/2012/09/17/personal-pastebin-system/
+   [pastebin]: http://connermcd.com/blog/2012/09/17/personal-pastebin-system.html
    [automator]: http://www.automatorapp.com/
    [example]: http://connermcd.com/screenshots/223821091912.png
    [BTT]: http://blog.boastr.net/
