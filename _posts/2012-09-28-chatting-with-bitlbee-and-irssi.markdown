@@ -20,6 +20,6 @@ I use [irssi][] for my IRC client. There's plenty of guides out there about irss
    [talk]: http://www.google.com/talk/
    [public]: http://www.bitlbee.org/main.php/servers.html
    [irssi]: http://www.irssi.org/
-   [vimpc]: http://connermcd.com/blog/2012/09/07/the-virtues-of-vimpc/
-   [mutt]: http://connermcd.com/blog/2012/09/25/using-mutt-with-offlineimap-and-vim/
+   [vimpc]: http://connermcd.com/blog/2012/09/07/the-virtues-of-vimpc.html
+   [mutt]: http://connermcd.com/blog/2012/09/25/using-mutt-with-offlineimap-and-vim.html
    [scripts]: http://scripts.irssi.org/scripts/

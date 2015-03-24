@@ -62,6 +62,6 @@ sudo systemctl start smbd
 
 Then you should be good to go. Set up the computer in [SyncMe wireless][syncme] and sync whatever you want!
 
-   [mpd]: http://connermcd.com/blog/2012/07/15/managing-music-with-mpd-and-mpc/
+   [mpd]: http://connermcd.com/blog/2012/07/15/managing-music-with-mpd-and-mpc.html
    [samba]: http://www.samba.org/
    [syncme]: https://play.google.com/store/apps/details?id=com.bv.wifisync&hl=en
