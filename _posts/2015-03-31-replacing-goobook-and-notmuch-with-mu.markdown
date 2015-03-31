@@ -1,10 +1,10 @@
 ---
-- blog
-categories:
-title: Replacing goobook and notmuch with mu
-slug: replacing-goobook-and-notmuch-with-mu
-layout: post
 date: '2015-03-31 18:29:00'
+layout: post
+slug: replacing-goobook-and-notmuch-with-mu
+title: Replacing goobook and notmuch with mu
+categories:
+- blog
 ---
 
 In a [previous post](http://connermcd.com/blog/2012/09/25/using-mutt-with-offlineimap-and-vim.html) regarding [mutt][] I recommended [notmuch][] for searching mail and [goobook][] for accessing contacts. For some time now I've replaced both of these tools with a different tool called [mu][] that accomplishes both tasks quite efficiently.
