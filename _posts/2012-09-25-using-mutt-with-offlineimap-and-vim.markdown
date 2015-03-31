@@ -32,6 +32,8 @@ Occasionally I want to run a full offlineimap update without waiting the whole t
 macro index,pager,attach gra "!sh ~/.mutt/mailrun.sh<enter>" "Refresh offlineimap"
 ```
 
+**EDIT**: I've swapped [goobook][] and [notmuch][] for [mu][]. Read my [more recent post](http://connermcd.com/blog/2015/03/31/replacing-goobook-and-notmuch-with-mu.html) for more info.
+
 ## goobook
 
 Another lifesaving utility for gmail integration into mutt is [goobook][]. I would not be still be using mutt if it weren't for goobook. I love google contacts and rely heavily on it. I'm an android user, so I loved the ability of being able to edit a contact and add an email address on the go. Then when I get home and want to gmail that person it just magically appears in the `To:` field when I start typing their name. I wasn't about to switch to a new email client that didn't have this feature, which is why goobook saves the day. It lets you query your google contacts and groups and autocomplete them. It has a very simple setup and integrates with mutt nicely. If there are more than one possibilities for autocompletion then it creates a pleasant selection menu with the options. If you want to add someone who sent you an email to your contacts, you can accomplish this with an easy goobook binding. Just use it; it's awesome. I use these two lines in my mutt configuration for goobook:
@@ -98,8 +100,7 @@ There's probably a way to do this automatically with hooks instead of using a ke
 
 ## other settings
 
-To make mutt behave more like vim I use a host of [keybindings](http://connermcd.com/paste/005650092512.html) and [options](http://connermcd.com/paste/012839092512.html
-). You'll notice in that second file that I reference a mailcap file on line 26. The mailcap file is extremely useful. You can use it to view HTML emails using lynx or pandoc.
+To make mutt behave more like vim I use a host of [keybindings](https://github.com/connermcd/dotfiles/blob/master/.mutt/keybindings) and [options](https://github.com/connermcd/dotfiles/blob/master/.mutt/muttrc). You'll notice in that second file that I reference a mailcap file on line 26. The mailcap file is extremely useful. You can use it to view HTML emails using lynx or pandoc.
 
 ```
 # HTML
@@ -129,4 +130,5 @@ I'm still getting the hang of mutt and have more to learn. I'm sure I'll have up
    [notmuch]: http://notmuchmail.org/
    [notspeed]: http://notmuchmail.org/performance/
    [script]: https://gist.github.com/2942855
-   [any2pdf]: http://connermcd.com/blog/2011/11/03/using-vim-anywhere-with-quickcursor.html
+   [any2pdf]: http://connermcd.com/blog/2011/12/07/convert-anything-to-pdf-from-the-shell.html
+   [mu]: http://www.djcbsoftware.nl/code/mu/
