@@ -13,14 +13,14 @@ In a [previous post](http://connermcd.com/blog/2012/09/25/using-mutt-with-offlin
 
 I made these changes to my [.offlineimaprc](https://github.com/connermcd/dotfiles/blob/master/.offlineimaprc.template) and [keybinding](https://github.com/connermcd/dotfiles/blob/master/.mutt/keybindings) files:
 
-## .offlineimaprc
+#### .offlineimaprc
 ```
 [Account Gmail]
 ...
 postsynchook = mu index --maildir ~/.mail
 ```
 
-## .muttrc
+#### .muttrc
 ```
 bind editor <Tab> complete-query
 set query_command = "mu cfind --format=mutt-ab  '%s'"
