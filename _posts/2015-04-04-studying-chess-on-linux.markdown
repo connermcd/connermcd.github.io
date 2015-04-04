@@ -13,7 +13,7 @@ One thing [chess.com][] doesn't have on it's web-based app that some other servi
 
 Now just import a [PGN][] file by copying it to your clipboard and going to `Edit → Paste PGN → Import` and you've got the game loaded into the system. Click the little train engine above the board to get the chess engine going and scroll through the game with your mouse wheel. Now you can evaluate any chess game you can get a [PGN][] file for in real time. Pretty handy for improving your skills.
 
-![Scid vs. PC](/images/scidvspc.png)\ 
+![Scid vs. PC](/images/scidvspc.png)
 
    [chess.com]: http://www.chess.com/
    [PGN]: http://en.wikipedia.org/wiki/Portable_Game_Notation
