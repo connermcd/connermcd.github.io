@@ -5,7 +5,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript">
     var bdays = [
-        { name: "Sarah Jo", month: 7, day: 24, year: 2012 }
+        { name: "Nathaniel", month: 6, day: 19, year: 2013 }
+    ,   { name: "Sarah Jo", month: 7, day: 24, year: 2012 }
     ,   { name: "Carter", month: 2, day: 18, year: 2011 }
     ,   { name: "Abigail", month: 12, day: 30, year: 2008 }
     ,   { name: "Ellery", month: 10, day: 22, year: 2006 }
@@ -68,7 +69,7 @@
             $bar.css({ "background-color": "red" });
         else if (now.getMonth() + 3 == o.month)
             $bar.css({ "background-color": "orange" });
-        else if (o.month - now.getMonth() >= 5)
+        else if (o.month - now.getMonth() >= 4)
             $bar.css({ "background-color": "yellow" });
         else
             $bar.css({ "background-color": "green" });
